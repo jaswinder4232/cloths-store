@@ -10,7 +10,17 @@
 //       }
 //     });
 //   });
+function scrollToTop() {
+    setTimeout(function () {
+        window.scrollTo(0, 0); // Scrolls to the top-left corner of the page
+    }, 0); // Delay of 0 milliseconds
+}
 
+// Call the function when the page reloads
+window.addEventListener('load', scrollToTop);
+
+// Call the function before the page unloads
+window.addEventListener('beforeunload', scrollToTop);
 
 function myFunction(x) {
     x.classList.toggle("change");
@@ -243,12 +253,7 @@ function initGSAP() {
 }
 
 // Function to scroll to the top of the page on reload
-function scrollToTop() {
-    window.scrollTo(0, 0); // Scrolls to the top-left corner of the page
-}
 
-// Call the function when the page reloads
-window.addEventListener('load', scrollToTop);
 
 // anothertimeline
 // function checkWidthAndmyfun() {
