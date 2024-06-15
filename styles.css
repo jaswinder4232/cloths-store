@@ -718,32 +718,14 @@ header h1 {
     width: 100%;
     z-index: 22;
     background-size: cover;
-    background-image: url(365e96e6-a96b-4cc4-9c42-e9179b54eb00.png);
+    background-image: url(chasma.png);
     background-position: center 10%;
     background-repeat: no-repeat;
     animation: chang infinite ease-in-out 7s alternate;
     animation-delay: 3.5s;
 }
 
-@keyframes chang {
-    33% {
-        background-image: url(chasma.png);
-        background-position: center 10%;
-        background-size: cover;
-    }
 
-    66% {
-        background-image: url(9469d9ef-1133-4c81-9062-573aa3a16414.png);
-        background-position: center 10%;
-        background-size: cover;
-    }
-
-    100% {
-        background-image: url(fd3abdcf-fa63-4a7e-81de-724678238e36.png);
-        background-position: center 10%;
-        background-size: cover;
-    }
-}
 
 /* secnd-section */
 .secnd-section {
