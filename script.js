@@ -69,7 +69,7 @@ function initGSAP() {
         autoAlpha: -0,
         display: "none",
         stagger: 0.2,
-        delay: 0.2
+     
 
 
     })
