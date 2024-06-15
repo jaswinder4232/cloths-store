@@ -95,7 +95,7 @@ function initGSAP() {
         opacity: 0,
         duration: 0.4,
         stagger: 0.2,
-        scale: 0,
+       
 
 
     }, "<0.1");
