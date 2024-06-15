@@ -264,9 +264,7 @@ header h1 {
         display: none;
     }
 
-    .right-side .cloths {
-        animation-delay: 1s !important;
-    }
+   
 
     .right-side {
         display: none !important;
@@ -277,31 +275,12 @@ header h1 {
         height: 70vh !important;
         animation: change infinite ease-in-out 7s alternate;
         background-size: cover;
-        background-image: url(365e96e6-a96b-4cc4-9c42-e9179b54eb00.png);
+        background-image: url(chasma.png);
         background-position: center 10%;
         backface-visibility: 1;
 
     }
 
-    @keyframes change {
-        33% {
-            background-image: url(chasma.png);
-            background-position: center 10%;
-            background-size: cover;
-        }
-
-        66% {
-            background-image: url(9469d9ef-1133-4c81-9062-573aa3a16414.png);
-            background-position: center 10%;
-            background-size: cover;
-        }
-
-        100% {
-            background-image: url(fd3abdcf-fa63-4a7e-81de-724678238e36.png);
-            background-position: center 10%;
-            background-size: cover;
-        }
-    }
 
     .left-side .homeee {
         backdrop-filter: blur(10px);
