@@ -11,10 +11,7 @@
 //     });
 //   });
 
-let loader = document.getElementById("loadeer");
-window.addEventListener("load", function () {
-    loader.style.display = "none"
-})
+
 function myFunction(x) {
     x.classList.toggle("change");
     var menu = document.getElementById("myMenu");
