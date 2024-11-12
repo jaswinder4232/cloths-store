@@ -243,8 +243,8 @@ function initGSAP() {
         scrollTrigger: {
             trigger: ".right-footer",
             scroller: "body",
-            start: "top 80%",
-            end: "top 78%",
+            start: "top 90%",
+            end: "top 91%",
             scrub: 2,
 
         }
